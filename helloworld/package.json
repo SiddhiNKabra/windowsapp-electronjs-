@@ -2,12 +2,9 @@
     "name": "helloworld",
     "version": "0.0.1",
     "main": "main.js",
-    // devDependencies get added automatically after electron installation
     "devDependencies": {
         "electron": "^27.1.2"
     },
-
-    // add scripts after ekectron installation
     "scripts": {
         "start": "electron ."
     }

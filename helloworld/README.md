@@ -1,5 +1,5 @@
 Steps to run a windows application
-1. change directory
+1. create directory
 2. make the .json file(devDependencies is created after electron installation automatically)
 3. run the command: "npm install electron --save-dev" on the terminal
 4. add the scripts to .json file

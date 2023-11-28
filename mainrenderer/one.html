@@ -1,0 +1,52 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>
+            Main Renderer
+        </title>
+        <link rel="stylesheet" href="styles1.css">
+    </head>
+    <body>
+        <h1>Renderer 1</h1>
+        <button id="newWindowBtn">Create</button>
+        <script src = "./one.js"></script>
+    </body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Main Renderer</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <h1>Renderer 1</h1>
+    <button id="newWindowBtn">Create</button>
+    <script src="./one.js" preload="./preload.js"></script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Main Renderer</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <h1>Renderer 1</h1>
+    <button id="newWindowBtn">Create</button>
+    <!-- Specify preload script to enable require in the renderer process -->
+    <script src="./preload.js" preload></script>
+    <script src="./one.js" type="module"></script>
+</body>
+</html>
